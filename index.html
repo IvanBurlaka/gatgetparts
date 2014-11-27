@@ -12,10 +12,10 @@
 <link href="css/jcarousel.css" rel="stylesheet" />
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="css/style.css" rel="stylesheet" />
-<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Scada&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
-
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 <!-- Theme skin -->
 <!-- <link href="skins/default.css" rel="stylesheet" /> -->
@@ -38,7 +38,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><span>G</span>atget <span>Parts</span></a>
+                    <a class="navbar-brand"id ="brand" href="index.html"><span>G</span>atget <span>Parts</span></a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav" id="top-nav">
@@ -67,7 +67,7 @@
                 <div class="flex-caption">
                     <h3>Прайс-лист</h3> 
 					<p>Информация Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, adipisci pariatur quisquam repellat asperiores minus?</p> 
-					<a href="#" class="btn btn-theme">Скачать прайс-лист</a>
+					<a href="downloads/file.pdf" class="btn btn-theme" target="_blank">Скачать прайс-лист</a>
                 </div>
               </li>
               <li>
@@ -98,7 +98,7 @@
 				<div class="icon about-icon wow fadeInUp"></div>
 			</div>
 			<div class="col-md-8 col-md-offset-2 about-p">
-				<p>Главной ценностью и достижением нашей компании – является долгосрочные отношения и успех наших клиентов.</p>
+				<p>Добро пожаловать на веб-сайт компании Gatget Parts! Ми - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas qui quos error! Similique facilis aperiam dolor fugit id tenetur est. Главной ценностью и достижением нашей компании – является долгосрочные отношения и успех наших клиентов.</p>
 			</div>
 			<!-- <div class="col-lg-12">
 				<div class="big-cta">
@@ -108,6 +108,9 @@
 				</div>
 			</div> -->
 				<div class="col-sm-12">
+					<div class="row">
+						<div class="col-md-12 text-center"><h4>Наши преимущества:</h4></div>
+					</div>
 					<div class="solidline">
 					</div>
 				</div>
@@ -330,7 +333,7 @@ $(document).ready(function(){
    });
 $('#top-nav').onePageNav({
          currentClass: 'active',
-         changeHash: true,
+         changeHash: false,
          scrollSpeed: 1200
          });
 });

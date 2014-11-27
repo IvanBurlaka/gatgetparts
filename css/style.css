@@ -108,8 +108,8 @@ header .navbar {
     border: none;
 }
 
-.navbar-brand {
-    color: #222;
+#brand {
+    color: #666666;
 	text-transform: capitalize;
     font-size: 24px;
     font-weight: 700;
@@ -788,8 +788,11 @@ blockquote cite a:visited 				{ color:#555; }
 	-o-transition:      all 0.3s ease;
 	-ms-transition:     all 0.3s ease;
 	transition:         all 0.3s ease;
-}3:hover {
-	background-color: #f5595a;
+}
+
+.btn-theme:hover {
+	background-color: #f6595a;
+	color: #fff;
 }
 
 /* --- list style --- */
@@ -2057,16 +2060,16 @@ article img.pull-right, article .align-right{
 }
 
 .kiev {
-	background-image: url(http://www.projects.aegee.org/suct/su2014/images/SUs/KYI2_3_kiev_029.jpg);
+	background-image: url(../img/kiev.jpg);
 	background-size: 100%;
 }
 .ukraine {
-	background-image: url(http://bettertimesranch.com/wp-content/uploads/2013/05/Field-at-Ukraine.jpg);
+	background-image: url(../img/ukraine.jpg);
 	background-size: 150%;
-	background-position: -50px 0px;
+	background-position: -85px 0px;
 }
 .warehouse {
-	background-image: url(https://blog.octopart.com/wp-content/uploads/2008/05/shelf.jpg);
+	background-image: url(../img/shelf.jpg);
 	background-size: 100%;
 }
 
@@ -2282,4 +2285,13 @@ section p, section li {
 .navbar {
 	border-bottom: 1px solid #F4F4F4;
 	opacity:0.93;
+}
+.navbar a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color:#4D4D4D;
+	font-size: 13px;
+}
+.contacts {
+	padding-bottom: 0px;
 }
