@@ -2073,9 +2073,8 @@ article img.pull-right, article .align-right{
 	background-size: 100%;
 }
 
-.navbar .nav > li > a:hover,
-.navbar .nav > li > a:focus {
-/*  color: #dddddd;*/
+.navbar .nav > li > a:hover {
+  color: #dddddd;
    background-color: none;
   background-image: none;
   background-repeat: repeat-x;
@@ -2294,5 +2293,5 @@ section p, section li {
 }
 .contacts {
 	padding-bottom: 0px;
-	
+
 }
