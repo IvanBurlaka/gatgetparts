@@ -2075,7 +2075,7 @@ article img.pull-right, article .align-right{
 
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
-  color: #dddddd;
+/*  color: #dddddd;*/
    background-color: none;
   background-image: none;
   background-repeat: repeat-x;
