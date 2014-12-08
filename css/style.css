@@ -2288,10 +2288,35 @@ section p, section li {
 .navbar a{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	color:#4D4D4D;
+	color: #4D4D4D;
 	font-size: 13px;
 }
 .contacts {
 	padding-bottom: 0px;
 
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	header ul.nav li a {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+		header ul.nav li a {
+		font-size: 10px;
+		padding: 0px;
+	}
+	header ul.nav li {
+		padding: 0px !important;
+	}
+	.navbar-brand {
+		margin-top: 10px;
+		height: 23px;
+		font-size: 18px
+
+	}
+	.navbar-header {
+		margin-top: 0px;
+	}
 }
