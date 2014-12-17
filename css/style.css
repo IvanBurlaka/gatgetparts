@@ -2295,10 +2295,21 @@ section p, section li {
 	padding-bottom: 0px;
 
 }
+.button-iphone {
+	display: none;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.flex-caption {
+		left: 60%;
+	}
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	header ul.nav li a {
 		font-size: 11px;
+	}
+		.flex-caption {
+		left: 50%;
 	}
 }
 
@@ -2319,4 +2330,16 @@ section p, section li {
 	.navbar-header {
 		margin-top: 0px;
 	}
+	.box-gray {
+		min-height: 100px;
+	}
+	.button-iphone{
+		display: block;
+	}
+	.btn {
+		padding: 3% 27%;
+		display: block;
+		margin: 0 auto;
+	}
+
 }

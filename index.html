@@ -82,6 +82,9 @@
         </div>
 	<!-- end slider -->
 			</div>
+			<div class="col-lg-12 button-iphone">
+				<a href="downloads/file.xlsx" class="btn btn-theme">Скачать прайс-лист</a>
+			</div>
 		</div>
 	</div>	
 	
@@ -98,7 +101,7 @@
 				<div class="icon about-icon wow fadeInUp"></div>
 			</div>
 			<div class="col-md-8 col-md-offset-2 about-p">
-				<p>Добро пожаловать на веб-сайт компании Gatget Parts! Мы - компания №1 среди поставщиков КАЧЕСТВЕННЫХ комплектующих Apple в Украине! Главная ценность нашей компании – долгосрочные отношения с нашими клиентами.</p>
+				<p>Добро пожаловать на веб-сайт компании Gadget Parts! Мы - компания №1 среди поставщиков КАЧЕСТВЕННЫХ комплектующих Apple в Украине! Главная ценность нашей компании – долгосрочные отношения с нашими клиентами.</p>
 			</div>
 			<!-- <div class="col-lg-12">
 				<div class="big-cta">
@@ -284,7 +287,7 @@
                 		<li><strong>Skype: </strong>gadget.parts1</li>
                 		<li><strong>e-mail: </strong>info@gadgetparts.com.ua</li>
                 		<li><strong>Телефон: </strong>067-477-21-98, 063-304-08-36.</li>
-                		<li><strong>Адрес: </strong>г.Киев., ул.Глубочицкая 19 (м.Лукьяновка)</li>
+                		<li>г.Киев., ул.Глубочицкая 19 (м.Лукьяновка)</li>
                 	</ul>
                 </div>
                     
@@ -338,7 +341,12 @@ $('#top-nav').onePageNav({
          scrollSpeed: 1200
          });
 });
-
+if (!$('navbar-collapse').hasClass("collapsed"))
+{
+	$('.navbar-nav a').on('click',function(){
+		$('.navbar-collapse').removeClass("in");
+	});
+}
 
 
 </script>
