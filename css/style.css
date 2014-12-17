@@ -2311,6 +2311,9 @@ section p, section li {
 		.flex-caption {
 		left: 50%;
 	}
+	.navbar-brand {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -2340,6 +2343,9 @@ section p, section li {
 		padding: 3% 27%;
 		display: block;
 		margin: 0 auto;
+	}
+	#brand {
+		margin-top: 11px;
 	}
 
 }
